@@ -15,4 +15,8 @@ public class Imposto {
 		return orcamento.getValor() * 0.3;
 	}
 
+	public String getTipo() {
+		return "Imposto de Renda";
+	}
+
 }
