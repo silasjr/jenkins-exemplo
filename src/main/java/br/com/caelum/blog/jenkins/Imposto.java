@@ -2,7 +2,13 @@ package br.com.caelum.blog.jenkins;
 
 public class Imposto {
 
+	private Orcamento orcamento;
+
 	public Imposto() {
+	}
+
+	public Imposto(Orcamento orcamento) {
+		this.orcamento = orcamento;
 	}
 
 	public double calcula(Orcamento orcamento) {
