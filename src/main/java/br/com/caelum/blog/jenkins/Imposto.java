@@ -10,4 +10,9 @@ public class Imposto {
 		return orcamento.getValor() * 0.1;
 	}
 
+	public double calculaIR(Orcamento orcamento) {
+		System.out.println("IR calculado");
+		return orcamento.getValor() * 0.3;
+	}
+
 }
